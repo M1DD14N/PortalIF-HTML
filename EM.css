@@ -15,19 +15,24 @@ html {
     background-color: #fff;
 }
 
-
-.title {
-    font-size: 70px;
+.card {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
-.container {
+.buscador {
+    border: none;
+    outline: none;
+    padding: 5px;
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
 }
 
 .total {
@@ -41,27 +46,15 @@ html {
     justify-content: left;
 }
 
-.buscador {
-    border: none;
-    outline: none;
-    padding: 5px;
+.medio {
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-.grid  {
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-    flex-direction: row-reverse;
-    display: flex;
-}
-
-.card {
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+.title {
+    font-size: 70px;
     font-weight: bold;
-    width: 120px;
-
+    margin-left: auto;
+    margin-right: 20px;
 }
