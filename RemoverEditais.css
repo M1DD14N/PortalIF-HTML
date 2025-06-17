@@ -1,0 +1,197 @@
+header {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.Quadrado {
+    background-color: rgb(215, 254, 255);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+}
+
+.buscador {
+    border: none;
+    outline: none;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.total {
+    justify-content: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voltar {
+    display: flex;
+    justify-content: left;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: aquamarine;
+    padding-top: 10px;
+    color: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-indent: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background-color: #aaeee6;
+}
+
+.submenu {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.sidebar ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 8px 0;
+}
+
+
+.Edital {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.principal {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.telas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.if{
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buscador {
+    border: none;
+    outline: none;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.Quadrado {
+    background-color: rgb(215, 254, 255);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+}
+
+.sub{
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.tabela-remover {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgb(215, 254, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-remover th, .tabela-remover td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabela-remover th {
+    background-color: aquamarine;
+    color: black;
+}
+
+.tabela-remover tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-remover tr:hover {
+    background-color: #e0f7fa;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+    justify-items: center;
+}

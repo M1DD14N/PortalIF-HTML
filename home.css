@@ -53,9 +53,14 @@ html {
 
 .descricao {
     color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.0em;
+    padding: 100px;
+    text-align: justify;
 }
 
 .campos {

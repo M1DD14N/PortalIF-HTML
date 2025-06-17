@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RemoverEditais.css">
+    <title>Remover Edital</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="if">Portal IF</div>
+    </header>
+
+    <div class="buscador">
+        <input type="text" placeholder="Buscar..."> 🔍
+    </div>
+
+    <div class="sidebar">
+        <div class="foto">
+            <img src="img1/Component_7-whitepreview 1.svg" alt="ifbaiano" width="100px" id="foto">
+        </div>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Editais</a></li>
+            <li>
+                <a href="#">Ensino</a>
+                <ul class="submenu">
+                    <li><a href="#">Ensino Médio</a></li>
+                    <li><a href="#">Subsequente</a></li>
+                    <li><a href="#">Superior</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Servidores</a>
+                <ul class="submenu">
+                    <li><a href="#">Publicar</a></li>
+                    <li><a href="#">Remover</a></li>
+                    <li><a href="#">Entrevistas</a></li>
+                    <li><a href="#">Recursos</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <main class="content">
+        <h1>Remover Edital</h1>
+
+        <form action="#" method="post">
+            <table class="tabela-remover">
+                <thead>
+                    <tr>
+                        <th>Selecione</th>
+                        <th>Título do Edital</th>
+                        <th>Data de Publicação</th>
+                        <th>Categoria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="remover[]" value="edital1"></td>
+                        <td>Edital 001/2025 - Pibic-EM</td>
+                        <td>10/06/2025</td>
+                        <td>Ensino Médio</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="remover[]" value="edital2"></td>
+                        <td>Edital 002/2025 - Auxilio Eventual</td>
+                        <td>15/06/2025</td>
+                        <td>Subsequente</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="remover[]" value="edital3"></td>
+                        <td>Edital 003/2025 - Pibid</td>
+                        <td>20/06/2025</td>
+                        <td>Superior</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="margin-top: 20px; text-align: center;">
+                <button type="submit">Remover Editais Selecionados</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

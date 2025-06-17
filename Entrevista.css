@@ -1,0 +1,166 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.if {
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buscador {
+    border: none;
+    outline: none;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: aquamarine;
+    padding-top: 10px;
+    color: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-indent: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background-color: #aaeee6;
+}
+
+.submenu,
+.sub {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.sidebar ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 8px 0;
+}
+
+.Edital,
+.principal {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+}
+
+.Edital {
+    flex-direction: column-reverse;
+}
+
+.principal {
+    flex-direction: row;
+}
+
+.Quadrado {
+    background-color: rgb(215, 254, 255);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+}
+
+.telas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voltar {
+    display: flex;
+    justify-content: left;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.tabela-entrevistas {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-entrevistas th, .tabela-entrevistas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-entrevistas th {
+    background-color:  aquamarine;
+    color: rgb(0, 0, 0);
+}
+
+.tabela-entrevistas tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-entrevistas tr:hover {
+    background-color: #f1f1f1;
+}
+
+button[type="submit"] {
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #76d7c4;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PublicarEdital.css">
+    <title>Publicar Edital</title>
+</head>
+
+<body>
+    <header>
+        <div class="if">Portal IF</div>
+    </header>
+
+    <div class="buscador">
+        <input type="text" placeholder="Buscar..."> 🔍
+    </div>
+
+    <div class="sidebar">
+        <div class="foto">
+            <img src="img1/Component_7-whitepreview 1.svg" alt="ifbaiano" width="100px" id="foto">
+        </div>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Editais</a></li>
+            <li>
+                <a href="#">Ensino</a>
+                <ul class="submenu">
+                    <li><a href="#">Ensino Médio</a></li>
+                    <li><a href="#">Subsequente</a></li>
+                    <li><a href="#">Superior</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Servidores</a>
+                <ul class="submenu">
+                    <li><a href="#">Publicar</a></li>
+                    <li><a href="#">Remover</a></li>
+                    <li><a href="#">Entrevistas</a></li>
+                    <li><a href="#">Recursos</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <main class="content">
+        <h1>Publicar Novo Edital</h1>
+
+        <form action="#">
+            <table class="tabela-edital">
+                <tr>
+                    <td>Título do Edital:</td>
+                    <td><input type="text" name="titulo_edital" placeholder="Digite o título"></td>
+                </tr>
+                <tr>
+                    <td>Descrição:</td>
+                    <td><textarea name="descricao" placeholder="Digite uma descrição do edital" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Área / Modalidade:</td>
+                    <td>
+                        <select name="modalidade">
+                            <option value="Ensino Médio">Ensino Médio</option>
+                            <option value="Subsequente">Subsequente</option>
+                            <option value="Superior">Superior</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Data de Publicação:</td>
+                    <td><input type="date" name="data_publicacao"></td>
+                </tr>
+                <tr>
+                    <td>Arquivo do Edital (PDF):</td>
+                    <td><input type="file" name="arquivo_edital" accept=".pdf"></td>
+                </tr>
+            </table>
+
+            <div class ="style">
+                <button type="submit">Publicar Edital</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

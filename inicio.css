@@ -46,6 +46,7 @@ html {
     outline: none;
     padding: 5px;
     display: flex;
+    justify-content: right;
 }
 
 .grid  {
@@ -57,11 +58,55 @@ html {
 }
 
 .card {
-    background-color: lightgray;
+    background-color: rgb(215, 254, 255);
     padding: 20px;
+    border: 1px solid black;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
-    width: 120px;
+    width: 100px;
+    height: 100px;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: aquamarine;
+    padding-top: 10px;
+    color: white;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
 
+.sidebar ul li {
+    padding: 10px;
+    text-indent: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background-color: #aaeee6;
+}
+
+.submenu {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.sidebar ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 8px 0;
 }

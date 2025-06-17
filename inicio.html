@@ -7,39 +7,61 @@
     <link rel="stylesheet" href="inicio.css">
     <title>Pagina Inicial</title>
 </head>
+<header>
+    <div class="title">Portal IF</div>
+</header>
 
 <body>
-    <header>
-        <img src="img1/Component_7-whitepreview 1.svg" alt="ifbaiano" width="100px" id="foto">
-        <div class="title">Portal IF</div>
-    </header>
-    <div class="total">
-        <div class="voltar"> <button>voltar</button> </div>
-        <div class="buscador">
-            <input type="text" placeholder="Buscar...">
-            🔍
+    <div class="buscador">
+        <input type="text" placeholder="Buscar...">
+        🔍
+    </div>
+    <div class="sidebar">
+        <div class="foto">
+            <img src="img1/Component_7-whitepreview 1.svg" alt="ifbaiano" width="100px" id="foto">
         </div>
+        <ul>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Editais</a></li>
+                <li>
+                    <a href="#">Ensino</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ensino Médio</a></li>
+                        <li><a href="#">Subsequente</a></li>
+                        <li><a href="#">Superior</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Servidores</a>
+                    <ul class="submenu">
+                        <li><a href="#">Publicar</a></li>
+                        <li><a href="#">Remover</a></li>
+                        <li><a href="#">Entrevistas</a></li>
+                        <li><a href="#">Recursos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
     </div>
-    <p>
-    </div>
-    <div class="container">
-        <div class="grid">
-            <div class="card">
-                <img src="img1/edit-file.png" alt="editais">Editais
-            </div>
-            <div class="card">
-                <img src="img1/ensino-medio.png" alt="Ensino medio" height="60" width="60">Ensino Médio
-            </div>
-            <div class="card">
-                <img src="img1/synchronize.png" alt="Subsequente">Subsequente
-            </div>
-            <div class="card">
-                <img src="img1/graduation-cap.png" alt="Superior">Superior
+    <main>
+        <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <img src="img1/graduation-cap.png" alt="Superior">Superior
+                </div>
+                <div class="card">
+                    <img src="img1/synchronize.png" alt="Subsequente">Subsequente
+                </div>
+                <div class="card">
+                    <img src="img1/ensino-medio.png" alt="Ensino medio" height="60" width="60">Ensino Médio
+                </div>
+                <div class="card">
+                    <img src="img1/edit-file.png" alt="editais">Editais
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-
+    </main>
 </body>
 
 </html>

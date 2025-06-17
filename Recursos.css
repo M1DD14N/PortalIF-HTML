@@ -15,7 +15,7 @@ html {
     background-color: #fff;
 }
 
-.card {
+.Quadrado {
     background-color: rgb(215, 254, 255);
     padding: 20px;
     border: 1px solid black;
@@ -42,19 +42,6 @@ html {
 .voltar {
     display: flex;
     justify-content: left;
-}
-
-.medio {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.title {
-    font-size: 70px;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: 20px;
 }
 
 .sidebar {
@@ -100,4 +87,60 @@ html {
 
 .submenu li {
     padding: 8px 0;
+}
+
+
+.Edital {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.principal {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.telas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.if{
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buscador {
+    border: none;
+    outline: none;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.Quadrado {
+    background-color: rgb(215, 254, 255);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+}
+
+.sub{
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
 }
